@@ -10,4 +10,5 @@ func main() {
 	fmt.Println(math.Sqrt(16))
 
 	minDistance()
+	determineLeapYear()
 }

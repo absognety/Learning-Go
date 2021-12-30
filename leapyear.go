@@ -1,3 +1,6 @@
+/*
+Refer this example from Get Programming with Go
+*/
 package main
 
 import (
