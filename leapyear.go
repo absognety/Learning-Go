@@ -1,5 +1,5 @@
 /*
-Refer this example from Get Programming with Go
+Refer this example from Get Programming with Go by Nathan youngman and Roger Peppe
 */
 package main
 
