@@ -12,4 +12,5 @@ func main() {
 	determineLeapYear()
 	torch()
 	tryswitch()
+	isLaunchSuccess()
 }
