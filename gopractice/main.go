@@ -24,4 +24,8 @@ func main() {
 	} else {
 		fmt.Println("Value entered is: ", aFloat)
 	}
+
+	fmt.Println(calculator("23", "45"))
+	fmt.Println(calculator("23.33", "45.89"))
+	fmt.Println(calculator("10.0", "5.5"))
 }
