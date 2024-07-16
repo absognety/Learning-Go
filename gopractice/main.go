@@ -28,4 +28,7 @@ func main() {
 	fmt.Println(calculator("23", "45"))
 	fmt.Println(calculator("23.33", "45.89"))
 	fmt.Println(calculator("10.0", "5.5"))
+
+	fmt.Println(convertToMap([]string{"apple", "orange"}))
+	fmt.Println(convertToMap([]string{"apple", "orange", "banana"}))
 }
