@@ -31,4 +31,11 @@ func main() {
 
 	fmt.Println(convertToMap([]string{"apple", "orange"}))
 	fmt.Println(convertToMap([]string{"apple", "orange", "banana"}))
+
+	cart := []cartItem{}
+	var apples = cartItem{"apple", 2.99, 3}
+	var oranges = cartItem{"orange", 1.50, 8}
+	var bananas = cartItem{"banana", .49, 12}
+	cart = append(cart, apples, oranges, bananas)
+	fmt.Println(calculateTotal(cart))
 }
