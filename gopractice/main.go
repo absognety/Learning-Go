@@ -43,5 +43,4 @@ func main() {
 	value2 := "5.5"
 	operation := "+"
 	fmt.Println(calculate(value1, value2, operation))
-
 }
