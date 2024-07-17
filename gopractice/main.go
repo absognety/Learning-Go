@@ -38,4 +38,10 @@ func main() {
 	var bananas = cartItem{"banana", .49, 12}
 	cart = append(cart, apples, oranges, bananas)
 	fmt.Println(calculateTotal(cart))
+
+	value1 := "10"
+	value2 := "5.5"
+	operation := "+"
+	fmt.Println(calculate(value1, value2, operation))
+
 }
