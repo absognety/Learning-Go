@@ -43,4 +43,11 @@ func main() {
 	value2 := "5.5"
 	operation := "+"
 	fmt.Println(calculate(value1, value2, operation))
+
+	jsonString := `[{"name":"apple","price":5.81,"quantity":3},
+		{"name":"orange","price":1.881,"quantity":8},
+		{"name":"banana","price":2.49,"quantity":12}]`
+
+	result := getCartFromJson(jsonString)
+	fmt.Println(result)
 }
