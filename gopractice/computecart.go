@@ -1,15 +1,15 @@
 package main
 
 type cartItem struct {
-	name     string
-	price    float64
-	quantity int
+	Name     string
+	Price    float64
+	Quantity int
 }
 
 func calculateTotal(cart []cartItem) float64 {
 	var total float64 = 0.0
 	for _, item := range cart {
-		total += item.price * float64(item.quantity)
+		total += item.Price * float64(item.Quantity)
 	}
 	return total
 }
